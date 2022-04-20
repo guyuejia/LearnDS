@@ -19,5 +19,6 @@ def isPalindrome(s:str)->bool:
         else:
             return False
 
-s="aav"
-print(isPalindrome(s))
+if __name__ == '__main__':
+    s="aav"
+    print(isPalindrome(s))
